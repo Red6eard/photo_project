@@ -20,7 +20,11 @@ function getNext() {
 
 //функция прокрутки слайдера назад
 function getPrev() {
-    
+    count -=1;
+    if (count < 0) {
+        count = photoArr.length -1
+    }
+    return count;
 }
 
 console.log(count);
