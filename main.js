@@ -27,4 +27,5 @@ function getPrev() {
     return count;
 };
 
+
 console.log(count);
