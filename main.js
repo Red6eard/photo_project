@@ -25,6 +25,6 @@ function getPrev() {
         count = photoArr.length -1
     }
     return count;
-}
+};
 
 console.log(count);
