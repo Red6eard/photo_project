@@ -6,7 +6,7 @@ const next = document.getElementById("next");
 
 //сщздаем массив с сылками на фотки
 
-const photoArr = ['image/Nik1Avers.jpg','image/Nik1Revers.jpg','image/Nik2Avers.jpg','image/Nik2Revers.jpg'];
+const photoArr = ['image/Nik1Avers.jpg','image/Nik1Revers.jpg','image/Nik2Avers.jpg','image/Nik2Revers.jpg','image/masAvers.jpg','image/masRevers.jpg','image/GrivAvers.jpg','image/GrivRevers.jpg'];
 
 //функция прокрутки слайдера вперед
 let count = 0;
