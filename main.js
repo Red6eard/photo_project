@@ -15,7 +15,7 @@ function getNext() {
     if (count > photoArr.length - 1) {
         count = 0;
     }
-    return count;
+    return photo.src = photoArr[count];
 };
 
 //функция прокрутки слайдера назад
@@ -24,8 +24,14 @@ function getPrev() {
     if (count < 0) {
         count = photoArr.length -1
     }
-    return count;
+    return photo.src = photoArr[count];
 };
 
 
-console.log(count);
+//прослушиватель событий на кнопку вперед
+
+next.addEventListener("click",getNext);
+
+//на кнопку назад
+
+prev.addEventListener("click",getPrev);
