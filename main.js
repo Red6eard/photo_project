@@ -28,7 +28,7 @@ function getPrev() {
 };
 
 
-//прослушиватель событий на кнопку вперед
+//прос/*  */лушиватель событий на кнопку вперед
 
 next.addEventListener("click",getNext);
 
